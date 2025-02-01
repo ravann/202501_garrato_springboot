@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3c63083-57f8-4f1c-bdd3-6504110eec79" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2sRSm3JLfwZ4Hzmtyi0CVtprOaa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnnotApp.executor": "Run",
+    "Application.ConfigApp.executor": "Run",
+    "Application.FactoryApp.executor": "Run",
+    "Application.SimpleApp.executor": "Run",
+    "Application.SimpleInterfaceApp.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ravan_yuubwhv/IdeaProjects/202501_garrato_springboot",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ravan_yuubwhv\IdeaProjects\202501_garrato_springboot\spring_intro\src\main\resources" />
+      <recent name="C:\Users\ravan_yuubwhv\IdeaProjects\202501_garrato_springboot\spring_intro\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnnotApp">
+    <configuration name="AnnotApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.annot.AnnotApp" />
+      <module name="spring_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.annot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.config.ConfigApp" />
+      <module name="spring_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.factory.FactoryApp" />
+      <module name="spring_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.simple.SimpleApp" />
+      <module name="spring_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleInterfaceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.simpleinterface.SimpleInterfaceApp" />
+      <module name="spring_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.simpleinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnnotApp" />
+        <item itemvalue="Application.SimpleInterfaceApp" />
+        <item itemvalue="Application.SimpleApp" />
+        <item itemvalue="Application.FactoryApp" />
+        <item itemvalue="Application.ConfigApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3c63083-57f8-4f1c-bdd3-6504110eec79" name="Changes" comment="" />
+      <created>1738417054931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738417054931</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
