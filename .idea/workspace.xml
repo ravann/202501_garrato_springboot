@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c63083-57f8-4f1c-bdd3-6504110eec79" name="Changes" comment="Initial commit for web servoce ...">
-      <change afterPath="$PROJECT_DIR$/webexample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/AccountServiceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/exception/AccountAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/exception/AccountNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/service/AccountServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webexample/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/example_postman.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_intro/src/main/java/example/simpleinterface/Gateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_intro/src/main/java/example/simpleinterface/Gateway.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +41,7 @@
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -106,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnotApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.annot.AnnotApp" />
+    <configuration name="ConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.config.ConfigApp" />
       <module name="spring_intro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.annot.*" />
+          <option name="PATTERN" value="example.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AccountServiceApp" />
-        <item itemvalue="Application.AnnotApp" />
         <item itemvalue="Application.SimpleInterfaceApp" />
         <item itemvalue="Application.SimpleApp" />
         <item itemvalue="Application.FactoryApp" />
+        <item itemvalue="Application.ConfigApp" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738418560732</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit for web servoce ...">
+      <option name="closed" value="true" />
+      <created>1738496808292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738496808292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
