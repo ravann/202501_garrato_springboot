@@ -4,17 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c63083-57f8-4f1c-bdd3-6504110eec79" name="Changes" comment="" />
+    <list default="true" id="f3c63083-57f8-4f1c-bdd3-6504110eec79" name="Changes" comment="Initial commit for web servoce ...">
+      <change afterPath="$PROJECT_DIR$/webexample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/AccountServiceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/exception/AccountAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/exception/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/java/accountservice/service/AccountServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webexample/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_intro/src/main/java/example/simpleinterface/Gateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_intro/src/main/java/example/simpleinterface/Gateway.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ravann"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ravann/202501_garrato_springboot.git",
+    "accountId": "c971bb8f-f845-487d-9070-81f9a19bc70d"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -27,6 +68,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountServiceApp.executor": "Run",
     "Application.AnnotApp.executor": "Run",
     "Application.ConfigApp.executor": "Run",
     "Application.FactoryApp.executor": "Run",
@@ -38,22 +80,25 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ravan_yuubwhv/IdeaProjects/202501_garrato_springboot",
-    "settings.editor.selected.configurable": "settings.sync"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="accountservice.exception" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ravan_yuubwhv\IdeaProjects\202501_garrato_springboot\spring_intro\src\main\resources" />
       <recent name="C:\Users\ravan_yuubwhv\IdeaProjects\202501_garrato_springboot\spring_intro\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotApp">
-    <configuration name="AnnotApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.annot.AnnotApp" />
-      <module name="spring_intro" />
+  <component name="RunManager" selected="Application.AccountServiceApp">
+    <configuration name="AccountServiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accountservice.AccountServiceApp" />
+      <module name="webexample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.annot.*" />
+          <option name="PATTERN" value="accountservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.config.ConfigApp" />
+    <configuration name="AnnotApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.annot.AnnotApp" />
       <module name="spring_intro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.config.*" />
+          <option name="PATTERN" value="example.annot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountServiceApp" />
         <item itemvalue="Application.AnnotApp" />
         <item itemvalue="Application.SimpleInterfaceApp" />
         <item itemvalue="Application.SimpleApp" />
         <item itemvalue="Application.FactoryApp" />
-        <item itemvalue="Application.ConfigApp" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +177,15 @@
       <option name="presentableId" value="Default" />
       <updated>1738417054931</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit ...">
+      <option name="closed" value="true" />
+      <created>1738418560732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738418560732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,5 +198,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit ..." />
+    <MESSAGE value="Initial commit for web servoce ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for web servoce ..." />
   </component>
 </project>
